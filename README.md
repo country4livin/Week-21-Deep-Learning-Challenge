@@ -6,15 +6,25 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 From Alphabet Soup’s business team, you have received access to a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
 EIN and NAME—Identification columns
+
 APPLICATION_TYPE—Alphabet Soup application type
+
 AFFILIATION—Affiliated sector of industry
+
 CLASSIFICATION—Government organization classification
+
 USE_CASE—Use case for funding
+
 ORGANIZATION—Organization type
+
 STATUS—Active status
+
 INCOME_AMT—Income classification
+
 SPECIAL_CONSIDERATIONS—Special considerations for application
+
 ASK_AMT—Funding amount requested
+
 IS_SUCCESSFUL—Was the money used effectively
 
 
@@ -129,7 +139,7 @@ Summary: Summarize the overall results of the deep learning model. Include a rec
 
   Overall, by optimizing the model we are able to increase the accuracy to above 78%. This means we are able to correctly classify each of the points in the test data 78% of the time, which surpassed the 75% target. This means an applicant has a 78% chance of being successful if they have the following:
 
-    - The NAME of the applicant appears more than 10 times.
-    - The CLASSIFICATION for the application is either: C1000, C1200, C2000, C2100 or C3000.
+- The NAME of the applicant appears more than 10 times.
+- The CLASSIFICATION for the application is either: C1000, C1200, C2000, C2100 or C3000.
 
 ### Step 5: Copy Files Into Your Repository
