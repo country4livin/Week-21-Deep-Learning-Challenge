@@ -142,4 +142,7 @@ Summary: Summarize the overall results of the deep learning model. Include a rec
 - The NAME of the applicant appears more than 10 times.
 - The CLASSIFICATION for the application is either: C1000, C1200, C2000, C2100 or C3000.
 
+Alternative Model:
+Random Forest algorithm could be an alternative model for this data. The finance industry often uses this model. The model can be easily scaled to large datasets, can be good at not overfitting, and is resilient to noisy data. The random forest model works by creating random predictions from decision trees and creates an average of these results to build a model.
+
 ### Step 5: Copy Files Into Your Repository
